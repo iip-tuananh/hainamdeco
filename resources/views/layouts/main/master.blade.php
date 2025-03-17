@@ -48,9 +48,9 @@
       <link rel="shortcut icon" href="{{url(''.$setting->favicon)}}" type="image/x-icon">
       <link rel="icon" href="{{url(''.$setting->favicon)}}" type="image/x-icon">
       <meta name="csrf-token" content="{{ csrf_token() }}" />
-	<link rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" />
-	<link rel="stylesheet" href="{{asset('frontend/css/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('frontend/css/callbutton.css')}}" />
+	<link rel="stylesheet" href="{{ env('AWS_R2_URL') }}/frontend/css/plugins.css" />
+	<link rel="stylesheet" href="{{ env('AWS_R2_URL') }}/frontend/css/style.css" />
+    <link rel="stylesheet" href="{{ env('AWS_R2_URL') }}/frontend/css/callbutton.css" />
 </head>
 <body>
     
@@ -97,21 +97,21 @@
         <img class="img-circle" src="{{url('frontend/img/lienhe.png')}}" alt="" width="135">
      </div>
 	<!-- jQuery -->
-	<script src="{{asset('frontend/js/jquery-3.6.3.min.js')}}"></script>
-	<script src="{{asset('frontend/js/jquery-migrate-3.0.0.min.js')}}"></script>
-	<script src="{{asset('frontend/js/modernizr-2.6.2.min.js')}}"></script>
-	<script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
-	<script src="{{asset('frontend/js/jquery.isotope.v3.0.2.js')}}"></script>
-	<script src="{{asset('frontend/js/popper.min.js')}}"></script>
-	<script src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('frontend/js/scrollIt.min.js')}}"></script>
-	<script src="{{asset('frontend/js/jquery.waypoints.min.js')}}"></script>
-	<script src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
-	<script src="{{asset('frontend/js/jquery.stellar.min.js')}}"></script>
-	<script src="{{asset('frontend/js/jquery.magnific-popup.js')}}"></script>
-	<script src="{{asset('frontend/js/YouTubePopUp.js')}}"></script>
-	<script src="{{asset('frontend/js/before-after.js')}}"></script>
-	<script src="{{asset('frontend/js/custom.js')}}"></script>
-    <script src="{{asset('frontend/js/callbutton.js')}}"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/jquery-3.6.3.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/modernizr-2.6.2.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/imagesloaded.pkgd.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/jquery.isotope.v3.0.2.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/popper.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/bootstrap.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/scrollIt.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/jquery.waypoints.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/owl.carousel.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/jquery.stellar.min.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/jquery.magnific-popup.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/YouTubePopUp.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/before-after.js"></script>
+	<script src="{{ env('AWS_R2_URL') }}/frontend/js/custom.js"></script>
+    <script src="{{ env('AWS_R2_URL') }}/frontend/js/callbutton.js"></script>
 </body>
 </html>
