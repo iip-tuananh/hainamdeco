@@ -23,7 +23,7 @@
    <!-- Header Banner -->
    <section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}" style="background-image: url(&quot;{{url('frontend/img/banner.jpg')}}&quot;);">
       <!-- Left Panel -->
-      <div class="left-panel"></div>
+      {{-- <div class="left-panel"></div> --}}
    </section>
    <!-- Services 3 -->
    <section class="services section-padding2">
@@ -52,7 +52,7 @@
             </div>
             @endforeach
             {{$list->links()}}
-            @else 
+            @else
             <h3>Nội Dung Đang Cập Nhật</h3>
             @endif
          </div>

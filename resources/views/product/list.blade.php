@@ -23,7 +23,7 @@ Danh sách {{$title}}
    <!-- Header Banner -->
    <section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}" style="background-image: url(&quot;{{url('frontend/img/banner.jpg')}}&quot;);">
       <!-- Left Panel -->
-      <div class="left-panel"></div>
+      {{-- <div class="left-panel"></div> --}}
    </section>
    <!-- Services 3 -->
    <section class="services section-padding2">
@@ -54,7 +54,7 @@ Danh sách {{$title}}
                       @if ($item->price > 0)
                            @if ($item->status_variant == 1)
                            <span style="color: #b19777;font-weight: 600; ">{{get_price_variant($item->id)}}₫ <del>{{number_format($item->price)}}₫</del></span>
-                           @else 
+                           @else
                            <span style="color: #b19777;font-weight: 600; ">{{number_format($item->discount)}}₫ <del>{{number_format($item->price)}}₫</del></span>
                            @endif
                         @else
@@ -65,7 +65,7 @@ Danh sách {{$title}}
             </div>
             @endforeach
             {{$list->links()}}
-            @else 
+            @else
             <h3>Nội Dung Đang Cập Nhật</h3>
             @endif
          </div>

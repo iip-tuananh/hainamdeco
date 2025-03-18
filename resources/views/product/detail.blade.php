@@ -29,7 +29,7 @@ $khuyenmai = json_decode($product->preserve);
 	<!-- Header Banner -->
 	<section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}">
 	   <!-- Left Panel -->
-	   <div class="left-panel"></div>
+	   {{-- <div class="left-panel"></div> --}}
 	</section>
 	<!-- Contact -->
 	<section class="section-padding2">
@@ -40,7 +40,7 @@ $khuyenmai = json_decode($product->preserve);
 				@if ($product->price > 0)
                @if ($product->status_variant == 1)
                <span class="price">{{get_price_variant($product->id)}}₫ <del>{{number_format($product->price)}}₫</del></span>
-               @else 
+               @else
                <span class="price">{{number_format($product->discount)}}₫ <del>{{number_format($product->price)}}₫</del></span>
                @endif
             @else

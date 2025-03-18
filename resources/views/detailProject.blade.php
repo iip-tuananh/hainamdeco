@@ -26,7 +26,7 @@ $img = json_decode($detail->images);
    <!-- Header Banner -->
    <section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}">
       <!-- Left Panel -->
-      <div class="left-panel"></div>
+      {{-- <div class="left-panel"></div> --}}
    </section>
    <!-- Project Page -->
    <section class="project-page section-padding2">

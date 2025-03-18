@@ -23,7 +23,7 @@
 	<!-- Header Banner -->
 	<section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}" style="background-image: url(&quot;{{url('frontend/img/banner.jpg')}}&quot;);">
 	   <!-- Left Panel -->
-	   <div class="left-panel"></div>
+	   {{-- <div class="left-panel"></div> --}}
 	</section>
 	<!-- Services Page -->
 	<section class="section-padding2">

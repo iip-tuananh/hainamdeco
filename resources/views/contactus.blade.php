@@ -23,7 +23,7 @@ Liên hệ với chúng tôi
 	<!-- Header Banner -->
 	<section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}">
 	   <!-- Left Panel -->
-	   <div class="left-panel"></div>
+	   {{-- <div class="left-panel"></div> --}}
 	</section>
 	<!-- Contact -->
 	<section class="section-padding2">
@@ -48,13 +48,13 @@ Liên hệ với chúng tôi
 				   <!-- Form elements -->
 				   <div class="row">
 					  <div class="col-md-12 form-group">
-						 <input name="name" type="text" placeholder="Họ Tên *" required> 
+						 <input name="name" type="text" placeholder="Họ Tên *" required>
 					  </div>
 					  <div class="col-md-6 form-group">
-						 <input name="email" type="email" placeholder="Email *" required> 
+						 <input name="email" type="email" placeholder="Email *" required>
 					  </div>
 					  <div class="col-md-6 form-group">
-						 <input name="phone" type="text" placeholder="Số Điện Thoại *" required> 
+						 <input name="phone" type="text" placeholder="Số Điện Thoại *" required>
 					  </div>
 					  <div class="col-md-12 form-group">
 						 <textarea name="mess" id="message" cols="30" rows="4" placeholder="Lời Nhắn *" required></textarea>

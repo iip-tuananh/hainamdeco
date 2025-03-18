@@ -1,9 +1,9 @@
 @extends('layouts.main.master')
 @section('title')
-{{$title_page}} 
+{{$title_page}}
 @endsection
 @section('description')
-{{$title_page}} 
+{{$title_page}}
 @endsection
 @section('image')
 {{url(''.$banner[0]->image)}}
@@ -21,7 +21,7 @@
    <!-- Header Banner -->
    <section class="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="{{url('frontend/img/banner.jpg')}}">
       <!-- Left Panel -->
-      <div class="left-panel"></div>
+      {{-- <div class="left-panel"></div> --}}
    </section>
    <!-- Blog  -->
    <section class="bauen-blog section-padding2">
@@ -32,7 +32,7 @@
             </div>
          </div>
          <div class="row">
-            @if (count($blog) > 0)  
+            @if (count($blog) > 0)
             @foreach ($blog as $item)
             <div class="col-md-6">
                <div class="item">
@@ -46,7 +46,7 @@
                </div>
             </div>
             @endforeach
-            @else 
+            @else
             <h3>Nội dung đang cập nhật</h3>
             @endif
          </div>

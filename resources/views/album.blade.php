@@ -23,7 +23,7 @@ Dự án tiêu biểu
    <!-- Header Banner -->
    <section class="banner-header banner-img bg-img bg-fixed pb-0" data-background="{{url('frontend/img/banner.jpg')}}" data-overlay-darkgray="5" style="background-image: url(&quot;{{url('frontend/img/banner.jpg')}}&quot;);">
       <!-- Left Panel -->
-      <div class="left-panel"></div>
+      {{-- <div class="left-panel"></div> --}}
    </section>
    <!-- Projects -->
    <section class="projects section-padding2">
@@ -45,7 +45,7 @@ Dự án tiêu biểu
                      <h6><a href="{{route('duanTieuBieuDetail',['slug'=>$item->slug])}}">PROJECT</a></h6>
                      <h5><a href="{{route('duanTieuBieuDetail',['slug'=>$item->slug])}}">{{$item->name}}</a></h5>
                      <div class="line"></div>
-                     <a href="{{route('duanTieuBieuDetail',['slug'=>$item->slug])}}"><i class="ti-arrow-right"></i></a> 
+                     <a href="{{route('duanTieuBieuDetail',['slug'=>$item->slug])}}"><i class="ti-arrow-right"></i></a>
                   </div>
                </div>
             </div>
