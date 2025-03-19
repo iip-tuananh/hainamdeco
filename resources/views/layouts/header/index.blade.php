@@ -14,6 +14,7 @@
             </a>
         </div>
     </div>
+    <div class="title-header-mobile text-center">Công ty TNHH thiết kế xây dựng Hải Nam</div>
     <!-- Button -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
     <!-- Menu -->
@@ -48,3 +49,29 @@
         </ul>
     </div>
 </nav>
+<style>
+    .navbar .title-header-mobile {
+        display: none;
+    }
+    @media (max-width: 991px) {
+        .navbar .title-header-mobile {
+            display: inline-block !important;
+            color: #2d3193;
+            font-size: 18px;
+            font-weight: 600;
+            width: 50%
+        }
+        .navbar .logo {
+            width: 25%;
+        }
+        .navbar button {
+            margin-right: 11px !important;
+            outline: none !important;
+            background: transparent;
+            margin-top: 0px !important;
+            border: 1px solid #2d3193;
+            padding-top: 10px;
+            margin-left: 18px;
+        }
+    }
+</style>
