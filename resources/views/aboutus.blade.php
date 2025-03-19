@@ -78,8 +78,7 @@ Về Chúng Tôi
                         <div><img src="{{url('frontend/img/icon-tn.png')}}" alt=""> </div>
                         <span>TẦM NHÌN</span>
                      </div>
-                     <p>Không chỉ chiếm lĩnh thị trường trong nước, KHÔI
-                        HƯNG không ngừng đổi mới, sáng tạo để kiến tạo các
+                     <p>Không chỉ chiếm lĩnh thị trường trong nước, Hải Nam Deco không ngừng đổi mới, sáng tạo để kiến tạo các
                         sản phẩm, dịch vụ nội thất đẳng cấp, mục tiêu trở
                         thành doanh nghiệp dẫn đầu thị trường khu vực và
                         quốc tế</p>
@@ -145,9 +144,7 @@ Về Chúng Tôi
                            <p>Với hệ thống 2 nhà xưởng sản xuất 1000m2 hiện
                               đại nằm ngay vị trí Khánh Hà - Thường Tín - Hà
                               Nội và Long Khánh- Biên Hoà- Đồng Nai thuận
-                              tiện cho việc sản xuất - cung cấp. CÔNG TY
-                              TNHH THƯƠNG MẠI VÀ XÂY DỰNG KHÔI
-                              HƯNG đầu tư hệ thống máy móc, thiết bị hiện đại
+                              tiện cho việc sản xuất - cung cấp. Công ty TNHH thiết kế xây dựng Hải Nam đầu tư hệ thống máy móc, thiết bị hiện đại
                               để có thể sản xuất các hạng mục nội thất chi tiết,
                               chất lượng nhằm đáp ứng nhu cầu của khách hàng.
                               Hải Nam Deco áp dụng quy trình công nghệ cho từng

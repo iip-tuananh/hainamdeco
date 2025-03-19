@@ -73,5 +73,9 @@
             padding-top: 10px;
             margin-left: 18px;
         }
+
+        .section-padding2 {
+            padding: 90px 0px 90px 0px;
+        }
     }
 </style>
