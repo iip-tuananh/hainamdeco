@@ -45,15 +45,15 @@ $img = json_decode($detail->images);
                   <div class="col-md-8 offset-md-4">
                      <div class="project-bar">
                         <div class="row justify-content-between align-items-center text-left text-lg-start">
-                           <div class="col-md-4 mb-15">
+                           <div class="col-4 col-md-4 mb-15">
                               <h5>Vị trí</h5>
                               <h6>{{$detail->location}}</h6>
                            </div>
-                           <div class="col-md-4 mb-15">
+                           <div class="col-4 col-md-4 mb-15">
                               <h5>Quy mô</h5>
                               <h6>{{$detail->scale}}</h6>
                            </div>
-                           <div class="col-md-4 mb-15">
+                           <div class="col-4 col-md-4 mb-15">
                               <h5>Ngày bàn giao</h5>
                               <h6>{{$detail->operate}}</h6>
                            </div>
