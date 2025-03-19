@@ -14,7 +14,7 @@
             </a>
         </div>
     </div>
-    <div class="title-header-mobile text-center">Công ty TNHH thiết kế xây dựng Hải Nam</div>
+    <div class="title-header-mobile text-center text-uppercase">Công ty TNHH thiết kế xây dựng Hải Nam</div>
     <!-- Button -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
     <!-- Menu -->
